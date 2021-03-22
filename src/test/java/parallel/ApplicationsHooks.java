@@ -29,14 +29,14 @@ public class ApplicationsHooks {
 		assumeTrue(false);
 	}
 	
-	@Before(order = 0)
+	@Before(order = 1)
 	public void getprop()
 	{
 		configreader = new ConfigReader();
 		prop = configreader.init_prop();
 	}
 	
-	@Before(order = 1)
+	@Before(order = 2)
 	public void launchBrowser()
 	{
 		String browserName = prop.getProperty("browser");
