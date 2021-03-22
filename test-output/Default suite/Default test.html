@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Mar 20 19:07:39 IST 2021</td>
+<td>Started on:</td><td>Mon Mar 22 22:20:00 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>59 seconds (59283 ms)</td>
+<tr><td>Total time:</td><td>337 seconds (337032 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,60 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Account section count", "Optional[My Account Page Feature]"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 288.703
+  (Session info: chrome=89.0.4389.90)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SURAJMISHRA&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b7bd55a8bb9cf6ab12225dda51b127f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at parallel.AccountsPageSteps.user_has_already_logged_in_to_application(AccountsPageSteps.java:28)
+	at ?.user has already logged in to application(file:///C:/Users/LENOVO/eclipse-workspace/cucumberFramework/src/rest/resources/parallel/MyAccountsPage.feature:4)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1339799439", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1339799439'><pre>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 288.703
+  (Session info: chrome=89.0.4389.90)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SURAJMISHRA&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b7bd55a8bb9cf6ab12225dda51b127f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at parallel.AccountsPageSteps.user_has_already_logged_in_to_application(AccountsPageSteps.java:28)
+	at ?.user has already logged in to application(file:///C:/Users/LENOVO/eclipse-workspace/cucumberFramework/src/rest/resources/parallel/MyAccountsPage.feature:4)
+</pre></div></td>
+<td>324</td>
+<td>parallel.ParallelRun@4ac3c60d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,34 +129,29 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Account section count", "Optional[My Account Page Feature]"</td>
-<td></td>
-<td>44</td>
-<td>parallel.ParallelRun@4ac3c60d</td></tr>
-<tr>
 <td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login page title", "Optional[Login page feature]"</td>
-<td></td>
-<td>48</td>
-<td>parallel.ParallelRun@4ac3c60d</td></tr>
-<tr>
-<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Contact Us scenario with different set of data", "Optional[Contact Us feature]"</td>
-<td></td>
-<td>48</td>
-<td>parallel.ParallelRun@4ac3c60d</td></tr>
-<tr>
-<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Contact Us scenario with different set of data", "Optional[Contact Us feature]"</td>
 <td></td>
 <td>48</td>
 <td>parallel.ParallelRun@4ac3c60d</td></tr>
 <tr>
 <td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with correct credentials", "Optional[Login page feature]"</td>
 <td></td>
-<td>48</td>
+<td>50</td>
 <td>parallel.ParallelRun@4ac3c60d</td></tr>
 <tr>
 <td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Accounts page title", "Optional[My Account Page Feature]"</td>
 <td></td>
-<td>48</td>
+<td>50</td>
+<td>parallel.ParallelRun@4ac3c60d</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Contact Us scenario with different set of data", "Optional[Contact Us feature]"</td>
+<td></td>
+<td>56</td>
+<td>parallel.ParallelRun@4ac3c60d</td></tr>
+<tr>
+<td title='parallel.ParallelRun.runScenario()'><b>runScenario</b><br>Test class: parallel.ParallelRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Contact Us scenario with different set of data", "Optional[Contact Us feature]"</td>
+<td></td>
+<td>56</td>
 <td>parallel.ParallelRun@4ac3c60d</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
@@ -141,8 +190,8 @@ Caused by: org.junit.AssumptionViolatedException: got: &lt;false&gt;, expected: 
 	at org.junit.Assume.assumeThat(Assume.java:106)
 	at org.junit.Assume.assumeTrue(Assume.java:50)
 	at parallel.ApplicationsHooks.skipped_cases(ApplicationsHooks.java:29)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1287938670", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1287938670'><pre>org.testng.SkipException: got: &lt;false&gt;, expected: is &lt;true&gt;
+</pre></div><a href='#' onClick='toggleBox("stack-trace1533040983", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1533040983'><pre>org.testng.SkipException: got: &lt;false&gt;, expected: is &lt;true&gt;
 	at io.cucumber.testng.TestCaseResultObserver.lambda$assertTestCasePassed$1(TestCaseResultObserver.java:27)
 	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:99)
 	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
@@ -170,7 +219,7 @@ Caused by: org.junit.AssumptionViolatedException: got: &lt;false&gt;, expected: 
 	at org.junit.Assume.assumeTrue(Assume.java:50)
 	at parallel.ApplicationsHooks.skipped_cases(ApplicationsHooks.java:29)
 </pre></div></td>
-<td>28</td>
+<td>18</td>
 <td>parallel.ParallelRun@4ac3c60d</td></tr>
 </table><p>
 </body>

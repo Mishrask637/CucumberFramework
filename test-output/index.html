@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-skipped">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse-946195057\testng-customsuite.xml</span>
+                    <span>C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse-894031898\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods,  1 skipped,  6 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,  1 skipped,  5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parallel.ParallelRun" hash-for-method="runScenario(&quot;Account section count&quot;, &quot;Optional[My Account Page Feature]&quot;)">runScenario("Account section count", "Optional[My Account Page Feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -116,22 +130,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parallel.ParallelRun" hash-for-method="runScenario(&quot;Accounts page title&quot;, &quot;Optional[My Account Page Feature]&quot;)">runScenario("Accounts page title", "Optional[My Account Page Feature]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parallel.ParallelRun" hash-for-method="runScenario(&quot;Contact Us scenario with different set of data&quot;, &quot;Optional[Contact Us feature]&quot;)">runScenario("Contact Us scenario with different set of data", "Optional[Contact Us feature]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parallel.ParallelRun" hash-for-method="runScenario(&quot;Account section count&quot;, &quot;Optional[My Account Page Feature]&quot;)">runScenario("Account section count", "Optional[My Account Page Feature]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parallel.ParallelRun" hash-for-method="runScenario(&quot;Contact Us scenario with different set of data&quot;, &quot;Optional[Contact Us feature]&quot;)">runScenario("Contact Us scenario with different set of data", "Optional[Contact Us feature]")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parallel.ParallelRun" hash-for-method="runScenario(&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Login page title", "Optional[Login page feature]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -141,7 +145,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parallel.ParallelRun" hash-for-method="runScenario(&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;)">runScenario("Login page title", "Optional[Login page feature]")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parallel.ParallelRun" hash-for-method="runScenario(&quot;Accounts page title&quot;, &quot;Optional[My Account Page Feature]&quot;)">runScenario("Accounts page title", "Optional[My Account Page Feature]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="parallel.ParallelRun" hash-for-method="runScenario(&quot;Contact Us scenario with different set of data&quot;, &quot;Optional[Contact Us feature]&quot;)">runScenario("Contact Us scenario with different set of data", "Optional[Contact Us feature]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -156,6 +165,46 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">parallel.ParallelRun</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Account section count&quot;, &quot;Optional[My Account Page Feature]&quot;)">
+                  </a> <!-- runScenario("Account section count", "Optional[My Account Page Feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Account section count", "Optional[My Account Page Feature]")</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 288.703
+  (Session info: chrome=89.0.4389.90)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SURAJMISHRA&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53704}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b7bd55a8bb9cf6ab12225dda51b127f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at parallel.AccountsPageSteps.user_has_already_logged_in_to_application(AccountsPageSteps.java:28)
+	at ✽.user has already logged in to application(file:///C:/Users/LENOVO/eclipse-workspace/cucumberFramework/src/rest/resources/parallel/MyAccountsPage.feature:4)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -211,6 +260,36 @@ Caused by: org.junit.AssumptionViolatedException: got: &lt;false&gt;, expected: 
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="runScenario(&quot;Contact Us scenario with different set of data&quot;, &quot;Optional[Contact Us feature]&quot;)">
+                  </a> <!-- runScenario("Contact Us scenario with different set of data", "Optional[Contact Us feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Contact Us scenario with different set of data", "Optional[Contact Us feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;)">
+                  </a> <!-- runScenario("Login page title", "Optional[Login page feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login page title", "Optional[Login page feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with correct credentials&quot;, &quot;Optional[Login page feature]&quot;)">
+                  </a> <!-- runScenario("Login with correct credentials", "Optional[Login page feature]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with correct credentials", "Optional[Login page feature]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="runScenario(&quot;Accounts page title&quot;, &quot;Optional[My Account Page Feature]&quot;)">
                   </a> <!-- runScenario("Accounts page title", "Optional[My Account Page Feature]") -->
                   <span class="method-name">runScenario</span>
@@ -229,52 +308,12 @@ Caused by: org.junit.AssumptionViolatedException: got: &lt;false&gt;, expected: 
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Account section count&quot;, &quot;Optional[My Account Page Feature]&quot;)">
-                  </a> <!-- runScenario("Account section count", "Optional[My Account Page Feature]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Account section count", "Optional[My Account Page Feature]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Contact Us scenario with different set of data&quot;, &quot;Optional[Contact Us feature]&quot;)">
-                  </a> <!-- runScenario("Contact Us scenario with different set of data", "Optional[Contact Us feature]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Contact Us scenario with different set of data", "Optional[Contact Us feature]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login with correct credentials&quot;, &quot;Optional[Login page feature]&quot;)">
-                  </a> <!-- runScenario("Login with correct credentials", "Optional[Login page feature]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with correct credentials", "Optional[Login page feature]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login page title&quot;, &quot;Optional[Login page feature]&quot;)">
-                  </a> <!-- runScenario("Login page title", "Optional[Login page feature]") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login page title", "Optional[Login page feature]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse-946195057\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse-894031898\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -335,36 +374,36 @@ data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'parallel.ParallelRun')
-data.setCell(0, 3, 48421);
+data.setCell(0, 3, 324917);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'parallel.ParallelRun')
-data.setCell(1, 3, 48420);
+data.setCell(1, 3, 56239);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'parallel.ParallelRun')
-data.setCell(2, 3, 48419);
+data.setCell(2, 3, 56198);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'parallel.ParallelRun')
-data.setCell(3, 3, 48398);
+data.setCell(3, 3, 50110);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'runScenario')
 data.setCell(4, 2, 'parallel.ParallelRun')
-data.setCell(4, 3, 48387);
+data.setCell(4, 3, 50069);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'runScenario')
 data.setCell(5, 2, 'parallel.ParallelRun')
-data.setCell(5, 3, 44836);
+data.setCell(5, 3, 48943);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'runScenario')
 data.setCell(6, 2, 'parallel.ParallelRun')
-data.setCell(6, 3, 28141);
+data.setCell(6, 3, 18765);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -397,35 +436,37 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">runScenario("Contact Us scenario with different set of data", "Optional[Contact Us feature]")</span>
-                <span class="method-start">913 ms</span>
+                <span class="method-start">1629 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Contact Us scenario with different set of data", "Optional[Contact Us feature]")</span>
-                <span class="method-start">913 ms</span>
+                <span class="method-start">1629 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Forgot Password link", "Optional[Login page feature]")</span>
-                <span class="method-start">913 ms</span>
+                <span class="method-start">1629 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Login page title", "Optional[Login page feature]")</span>
-                <span class="method-start">913 ms</span>
+                <span class="method-start">1629 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Login with correct credentials", "Optional[Login page feature]")</span>
-                <span class="method-start">919 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Account section count", "Optional[My Account Page Feature]")</span>
+                <span class="method-start">1630 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Accounts page title", "Optional[My Account Page Feature]")</span>
-                <span class="method-start">919 ms</span>
+                <span class="method-start">1630 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("Account section count", "Optional[My Account Page Feature]")</span>
-                <span class="method-start">919 ms</span>
+                <span class="method-name">runScenario("Login with correct credentials", "Optional[Login page feature]")</span>
+                <span class="method-start">1630 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">49341 ms</span>
+                <span class="method-start">326579 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

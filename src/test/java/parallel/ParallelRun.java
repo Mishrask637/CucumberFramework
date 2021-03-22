@@ -1,13 +1,13 @@
 package parallel;
 
-import org.junit.runner.RunWith;
+//import org.junit.runner.RunWith;
 import org.testng.annotations.DataProvider;
-import io.cucumber.junit.Cucumber;
+//import io.cucumber.junit.Cucumber;
 import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 
-@RunWith(Cucumber.class)
+//@RunWith(Cucumber.class)
 @CucumberOptions(
 			features= {"src\\rest\\resources\\parallel"},
 			glue={"parallel"},
