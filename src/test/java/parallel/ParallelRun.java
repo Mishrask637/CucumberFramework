@@ -20,8 +20,6 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 			monochrome = true
 		)
 
-
-
 public class ParallelRun extends AbstractTestNGCucumberTests{
 
 	@Override

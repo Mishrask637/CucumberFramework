@@ -5,12 +5,11 @@ import org.openqa.selenium.WebDriver;
 
 public class LoginPage {
 
-	
 	private WebDriver driver;
 	private By emailId = By.id("email");
 	private By password = By.id("passwd");
 	private By loginButton = By.id("SubmitLogin");
-	private By forgotpasswdlink = By.linkText("Forgot your password?111");
+	private By forgotpasswdlink = By.linkText("Forgot your password?");
 	
 	public LoginPage(WebDriver driver)
 	{
@@ -26,7 +25,6 @@ public class LoginPage {
 	{
 		return driver.findElement(forgotpasswdlink).isDisplayed();
 	}
-	
 	
 	public void enteruserName(String userName)
 	{
@@ -50,5 +48,4 @@ public class LoginPage {
 		driver.findElement(loginButton).click();
 		return new AccountsPage(driver);
 	}
-	
 }

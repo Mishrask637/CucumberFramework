@@ -43,12 +43,10 @@ public class AccountsPageSteps {
 		List<String> actualSeclist = accountpage.getAccountSectionList();
 		System.out.println("Actual List "+actualSeclist);
 		assertTrue(expectedSecList.containsAll(actualSeclist));
-		
 	}
 
 	@Then("accounts section should be {int}")
 	public void accounts_section_should_be(Integer ExpectedCount) {
 		assertTrue(accountpage.getAccountSectionCount()==ExpectedCount);
 	}
-	
 }

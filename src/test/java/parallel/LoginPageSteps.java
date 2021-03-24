@@ -12,7 +12,7 @@ public class LoginPageSteps {
 
 	private static String title;
 	
-	private LoginPage loginpage = new LoginPage(DriverFactory.threadlocalDriver.get());
+	private LoginPage loginpage = new LoginPage(DriverFactory.getDriver());
 	
 	@Given("user is on login page")
 	public void user_is_on_login_page() {
